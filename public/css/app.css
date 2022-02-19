@@ -1,5 +1,31 @@
 @import url(https://fonts.googleapis.com/css?family=Nunito);@charset "UTF-8";
 
+.btn-info {
+  color: #fff !important;
+}
+
+.channel-avatar {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  cursor: pointer;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.channel-avatar .channel-avater-overlay {
+  display: none;
+}
+
+.channel-avatar:hover .channel-avatar-overlay {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 /*!
  * Bootstrap v4.6.1 (https://getbootstrap.com/)
  * Copyright 2011-2021 The Bootstrap Authors
